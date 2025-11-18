@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spy Systems Modern UI</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <div class="header">
+      <div class="logo">
+        <span class="logo-icon">✨</span>
+        <h1>Spy Systems Modern UI</h1>
+      </div>
+      <p class="subtitle">Gør din app smuk igen</p>
+    </div>
+
+    <div class="content">
+      <div class="setting-group">
+        <div class="setting-item">
+          <div class="setting-info">
+            <label for="enableToggle">Aktiver Modern UI</label>
+            <p class="setting-description">Skift til moderne, clean design</p>
+          </div>
+          <label class="toggle">
+            <input type="checkbox" id="enableToggle" checked>
+            <span class="toggle-slider"></span>
+          </label>
+        </div>
+
+        <div class="setting-item">
+          <div class="setting-info">
+            <label for="darkModeToggle">Dark Mode</label>
+            <p class="setting-description">Skift til mørkt tema</p>
+          </div>
+          <label class="toggle">
+            <input type="checkbox" id="darkModeToggle">
+            <span class="toggle-slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="theme-selector">
+        <h3>Farvetema</h3>
+        <div class="theme-options">
+          <button class="theme-option active" data-theme="indigo">
+            <span class="theme-color" style="background: #4F46E5;"></span>
+            <span>Indigo</span>
+          </button>
+          <button class="theme-option" data-theme="blue">
+            <span class="theme-color" style="background: #3B82F6;"></span>
+            <span>Blå</span>
+          </button>
+          <button class="theme-option" data-theme="green">
+            <span class="theme-color" style="background: #10B981;"></span>
+            <span>Grøn</span>
+          </button>
+          <button class="theme-option" data-theme="purple">
+            <span class="theme-color" style="background: #8B5CF6;"></span>
+            <span>Lilla</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="info-section">
+        <div class="info-item">
+          <span class="info-icon">🎨</span>
+          <div>
+            <strong>Moderne design</strong>
+            <p>Clean, professionelt look</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <span class="info-icon">⚡</span>
+          <div>
+            <strong>Hurtig & responsiv</strong>
+            <p>Ingen performance-tab</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <span class="info-icon">♿</span>
+          <div>
+            <strong>Tilgængelighed</strong>
+            <p>WCAG 2.1 kompatibel</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <button id="refreshBtn" class="btn-secondary">
+        <span>🔄</span>
+        Genindlæs side
+      </button>
+      <div class="version">v1.0.0</div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

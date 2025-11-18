@@ -1,0 +1,33 @@
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+
+# Node (hvis vi tilføjer build process senere)
+node_modules/
+dist/
+build/
+
+# Packed extensions
+*.crx
+*.xpi
+*.zip
+
+# Certificates (hvis brugt til signing)
+*.pem
+*.key
